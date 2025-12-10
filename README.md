@@ -1,1 +1,1 @@
-![Home](https://hsqw.github.io/misaka.jpg)
+[主页](https://hsqw.github.io/)
