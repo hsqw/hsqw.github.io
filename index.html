@@ -1,0 +1,90 @@
+<html lang=zh-CN>
+  <title>Home</title>
+  <meta charset=utf-8>
+  <link rel="icon" href="index.ico">
+  <meta content="width=device-width,initial-scale=1,maximum-scale=1" name=viewport>
+  <meta content=jsthon name=author>
+  <link href="assets/css/style.css" rel=stylesheet>
+  <script>window.ga = window.ga ||
+    function() { (ga.q = ga.q || []).push(arguments)
+    };
+    ga.l = +new Date;
+    ga('create', 'UA-69454720-6', 'auto');
+    ga('send', 'pageview');</script>
+  <script async src='assets/scripts/analytics.js'></script>
+  
+  <body style=background:#fff>
+    <div id=site-main>
+        <br><br>
+        <center><h1>Home</h1></center>
+      <div id=main-overlay></div>
+      <div class="headline search-bar">
+        <div class=container>
+          <div class=headline-content>
+              <div class=search-tab>
+                  <span class=baidu>百度</span>
+                  <span class=bilibili>B站</span>
+                  <span class=google>谷歌</span>
+                  <span class=bing>必应</span>
+                  <span class=scholar>学术</span>
+
+              </div>
+            <form class=search-form target=_blank>
+              <input class="float-left search-keyword" type=search  required oninvalid="setCustomValidity('请输入要搜索的内容');" autocomplete=off autofocus>
+              <input class=float-right type=submit value=搜索></form>
+          </div>
+        </div>
+      </div>
+      <div class=works>
+        <div class=work-link>
+          <div class=container>
+            <div class=tab>
+              <span class=common>常用</span>
+              <span class=amuse>娱乐</span>
+              <span class=study>学习</span>
+
+              <i class=icon-cog id=setting-icon></i>
+            </div>
+            <div class=info></div>
+          </div>
+        </div>
+         <div class="gallery" data-cols="3" data-height="0.8" data-margin="0">
+     <div class="entry work-entry w2">
+      <a href="https://www.baidu.com/">
+       <div class="reveal">
+        <div class="entry-image imageBG" data-img="baidu.jpg"></div>
+        <div class="info">
+         <div class="content">
+          <div class="title">
+           百度
+          </div>
+          <div class="cat">
+          百度一下，你就知道！
+          </div>
+         </div>
+        </div>
+       </div></a>
+     </div>
+     <div class="entry work-entry">
+      <a href="https://www.bilibili.com/">
+       <div class="reveal">
+        <div class="entry-image imageBG" data-img="misaka.jpg"></div>
+        <div class="info">
+         <div class="content">
+          <div class="title">
+           哔哩哔哩
+          </div>
+          <div class="cat">
+           哔哩哔哩 (゜-゜)つロ 干杯~
+          </div>
+         </div>
+        </div>
+       </div></a>
+     </div>
+    </div>
+   </div>
+      </div>
+    </div>
+    <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/index.js"></script>
+</html>

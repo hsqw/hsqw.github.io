@@ -1,0 +1,18 @@
+CACHE MANIFEST
+#version 1.0
+
+CACHE:    
+ misaka.jpg
+ index.ico
+ index.html
+ baidu.jpg
+ assets/scripts/main.js
+ assets/scripts/index.js
+ assets/scripts/analytics.js
+ assets/font/h.ttf
+ assets/font/h.woff
+ assets/font/h.woff2
+ assets/css/style.css
+ https://gdguan27.github.io/
+NETWORK:
+*
